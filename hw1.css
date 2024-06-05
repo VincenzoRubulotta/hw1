@@ -1,0 +1,663 @@
+.borderradius
+{
+   border-top-left-radius: 50%;
+   border-top-right-radius: 50%;
+   border-bottom-left-radius:50%;
+   border-bottom-right-radius:50% 
+}
+
+.no-scroll
+{
+    overflow: hidden;
+}
+
+.modale
+{
+  position: absolute;
+
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+  top:0;
+  left:0;
+
+  background-color: rgba(0,0,0,0.9);
+  color: white; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.immagineprofilogoogle
+{
+  width: 15%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.immaginegoogle
+{
+    width: 50%;
+    margin-top: 20px;
+}
+#contenitoremappa
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.uscita
+{
+    height: 20px;
+}
+
+.freccia
+{
+    height: 40px;
+}
+
+#map
+{
+    height: 280px;
+    width: 400px;
+
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.hidden
+{
+   display: none;
+}
+
+#testoCIE
+{
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: rgb(33, 37, 41);
+}
+
+#bloccoCIE
+{
+  display: flex;
+  height: 60px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 25px;
+}
+
+.elementoCIE
+{
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding-top: 12px;
+}
+
+.elementoCIE button
+{
+    background-color: #0078BD;
+    color: white;
+    height: 48px;
+    width: 88%;
+    border: #0078BD solid;
+}
+
+.immagineCIE img
+{
+    height: 60px;
+}
+
+#testoCIE a
+{
+  color: #0078BD;
+  text-decoration-line: none;
+}
+
+.tavoladati2 button a
+{
+    color: white;
+    text-decoration-line: none;
+}
+
+.SPIDfoto img
+{
+    height: 30px;
+}
+#spazioSPID
+{
+     margin-top: 8px;
+    display: flex;
+    height: 88px;
+    align-items: center;
+}
+
+.elementoSPID
+{
+    flex-grow: 1;
+    flex-shrink: 1;
+    text-align: left;
+}
+
+.elementoSPID div a small
+{
+    color:#0078BD;
+    font-weight: 400;
+}
+
+.elementoSPID div a 
+{
+  text-decoration-line: none;
+}
+
+.elementoSPID button
+{
+    width: 80%;
+    height: 46px;
+    background-color: #0078BD;
+    color: white;
+    border:#0078BD solid;
+}
+.testoselettore
+{
+  font-size: 80%;
+  font-weight: 400;
+}
+
+body
+{
+  background-color: #0078BD;
+  font-family: sans-serif;
+  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: -10;
+}
+
+#languagebutton
+{
+    border: white;
+}
+
+.logo
+{
+    width: 280px;
+    height: 140px;
+}
+
+.logo2
+{
+  margin-top: 20px;
+}
+
+.bloccoattraversa
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    margin-top:-101px;
+    z-index: 1;
+
+}
+
+.imagelang
+{
+    margin-top: 35px;
+}
+
+.finepagina
+{
+  background-color: rgb(0, 51, 102);    
+  font-family: sans-serif;
+  color: rgba(255, 255, 255, 0.6);
+  padding-bottom: 8px;
+  padding-top: 8px;
+  text-align: center;
+  font-size: 11.4px;
+  width: 100vw;
+  text-align: center;
+}
+
+footer
+{
+    top: 93.8157vh;
+    background-size: auto;
+    position: fixed;
+}
+
+.sitolinkbottom
+{
+  color:  rgb(255, 255, 255);
+}
+
+.bloccocentrale
+{
+    display: flex;
+    width: 510px;
+    height: 560px;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    align-items: center;
+    padding:25px 10px 10px 10px;
+    margin-top: 40px;
+    border-bottom-left-radius :15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
+}
+
+#contenitore
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    z-index: -9;
+}
+
+
+.unictim
+{
+    background-color: #0078BD;
+   height: 165px;
+   width: 165px; 
+   padding-left:10px ;
+   padding-right: 10px;
+   border-top-left-radius: 50%;
+   border-top-right-radius: 50%;
+   border-bottom-left-radius:50%;
+   border-bottom-right-radius:50% ;
+   margin-top: -90px;
+   z-index: 2;
+}
+
+#maindiv
+{
+  width: 100%;    
+  margin-left: auto;
+  margin-right: auto;
+  z-index: -10;
+}
+
+.sottobloccocentrale
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 12.33vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#pulsantitransizione
+{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 24px;
+}
+
+#pulsantitransizione button
+{
+    width: 24%;
+    border-color: white;
+    background-color: white;
+    font-family: sans-serif;
+    color: #0078BD;
+}
+.sottobloccocentrale2
+{
+    width: 484.5px;
+    height: 359.3px;
+}
+
+.testoblocco
+{
+    margin-top: -6vh;
+    margin-bottom: 2vh;
+    color: rgb(33, 37, 41);
+    text-align: center;
+}
+
+.testobloccospecifico
+{
+    color: rgb(33, 37, 41);
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 700;
+}
+
+.tavoladati
+{
+    width: 452.5px;
+    height: 240px;
+    text-align: center;
+    padding: 16px 16px 16px 16px;
+}
+
+.selettoredati
+{
+    display: flex;
+    width: 452.5px;
+    height: 51.6px;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.omino
+{
+    background-color: rgb(245, 165, 44);
+    width: 38px;
+    border:  o.8px solid rgb(206, 212, 218);
+    border: 0.8px solid rgb(206, 212, 218);
+}
+
+.inserimentocodice
+{
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: rgb(255, 255, 255);
+    border:  0.8px solid rgb(206, 212, 218);
+    justify-content: center;
+    color: rgba(73, 80, 87,0.8);
+    padding-left: 12px;
+    padding-right: 12px;
+
+}
+
+
+.bottone
+{
+    display: flex;
+    width: 452.5px;
+    height: 51.6px;
+    background-color: rgb(1, 87, 155);
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+    justify-content: center;
+    font-family: sans-serif;
+    align-items: center;
+}
+
+.recuperodati
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.recup
+{
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+.recup a
+{
+    text-decoration-line:none;
+    color: #0078BD;
+}
+.devicedowload
+{
+    display: flex;
+    width: 484.5px;
+    height: 53.9px;
+    justify-content: center;
+}
+
+.store1
+{
+    height: 53.9px;
+    width: 130px;
+    margin-top:5.5px;
+}
+
+@media (max-width: 530px) 
+    {
+        .bloccocentrale
+        {
+        width: 96.2264151vw;
+
+        }
+
+        #map
+        {
+           width:  75vw;
+        }
+    }
+
+
+    @media (max-width: 650px)
+    {
+
+        footer
+        {
+            display: none;
+        }
+        .logo
+       {
+    display: none;
+       }
+        .finepagina
+        {
+            display: none;
+        }
+        .sitolinkbottom
+        {
+           display: none;
+        }
+
+        .Bottonereg
+        {
+            display: flex;
+            width: 452.5px;
+            height: 40.6px;
+            background-color: rgb(0, 200, 81);
+            text-align: center;
+            color: rgb(255, 255, 255);
+            margin-bottom: 16px;
+            flex-direction: column;
+            justify-content: center;
+            font-family: sans-serif;
+            align-items: center;
+        }
+
+        .bottonerec
+        {
+            display: flex;
+            width: 452.5px;
+            height: 40.6px;
+            background-color: rgb(255, 187, 51);
+            text-align: center;
+            color: rgb(255, 255, 255);
+            margin-bottom: 16px;
+            flex-direction: column;
+            justify-content: center;
+            font-family: sans-serif;
+            align-items: center;
+        }
+
+         .bottone
+         {
+            height: 40.6px;
+            margin-bottom: 16px;
+         }
+        .tavoladati
+        {
+            height: 300px;
+        }
+
+        .recup
+        {
+          display: none;
+        }
+
+        .store1
+        {
+            display: none;
+        }
+
+        .store2
+       {
+        display:none;
+       } 
+
+       .store3
+       {
+        width:72px ;
+        height: 28px;
+        margin-top: 3.5px;
+       }
+
+    }
+
+    .devicedowload2
+{
+    display: flex;
+    justify-content: center;
+    margin-top: -70px;
+}
+
+@media (min-width: 650px)
+{
+    .store3
+    {
+        display:none;
+    } 
+
+    .store4
+    {
+        display:none;
+    } 
+
+    .bottonerec
+    {
+        display: none;
+    }
+
+    .Bottonereg
+    {
+        display: none;
+    }
+}
+
+@media (max-width:510px)
+{
+    .bloccocentrale
+    {
+        width: 100%;
+        padding-left:1.9vw;
+        padding-right: 1.9vw;
+    }
+    .sottobloccocentrale2
+    {
+        width: 95vw;
+    }
+
+    .tavoladati
+    {
+        width: 88.7vw;
+        padding-left:3.1vw ;
+        padding-right: 3.1vw;
+    }
+
+    #pulsantitransizione
+    {
+        padding-left:3.1vw ;
+        padding-right: 3.1vw;
+    }
+
+    .selettoredati
+    {
+        width: 88.7vw; 
+    }
+
+    .omino
+    {
+        width: 7.4vw;
+        border: 0.156vw solid rgb(206, 212, 218);
+    }
+
+    .inserimentocodice
+    {
+        border:  o.156vw solid rgb(206, 212, 218);
+        padding-left: 2.35vw;
+        padding-right: 2.35vw;
+    }
+
+    .bottone
+    {
+        width: 88.7vw;  
+    }
+
+    .bottonerec
+    {
+        width: 88.7vw; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: sans-serif;
+    }
+
+    .Bottonereg
+    {
+        display: flex;
+        width: 88.7vw; 
+        flex-direction: column;
+        justify-content: center;
+        font-family: sans-serif;
+    }
+    .recuperodati
+{
+    margin-left: -2.941vw;
+    margin-right: -2.941vw;
+}
+
+   .recup
+    {
+    padding-left: -2.941vw;
+    padding-right: -2.941vw;
+    }
+
+    #contenitore
+    {
+        text-align: center;
+    }
+
+    #maindiv
+    {
+        text-align: center;
+    }
+
+    .devicedowload
+    {
+        width: 94.9vw;
+    }
+
+    #bloccoCIE
+    {
+        padding-left:3.1vw ;
+        padding-right: 3.1vw; 
+    }
+}
+
+
+body
+{
+    overflow-x: hidden;
+}
+
+.errorerosso
+{
+  color: red;
+}
